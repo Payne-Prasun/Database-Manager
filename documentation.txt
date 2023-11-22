@@ -1,0 +1,31 @@
+Please read the entire document before starting.
+
+This application will only read "csv" files present in the same directory as this application. If you don't have any csv file in the folder/directory you can make one externally or make one from withn the application.
+PLEASE NOTE: SAY YOU ARE WORKING ON FILE "test.csv" DO NOT HAVE THAT FILE OPENED IN EXCEL OR OTHER CSV READERS. SAY YOU HAVE EDITED THE FILE AND NOW YOU WANT TO CHECK WHETHER IT HAD REFLECTED IN THE EXCEL FILE SHEET YOU CAN DO SO AFTER DOING THE EDITING OPERATION JUST DON'T HAVE IT OPENED WHILE DELETING FOR ADDING DATA INTO THE FILE.
+
+Command List: (note: the application is completely case-proof)
+1.) create or ct or 1 --- inputing any one of the other will let you create a csv file.
+			if a file with the same name exsists then you will have the option to either edit the file or show the file.
+			if the file doesn't exsist you can hence create the file.
+			first you will need to enter all the headers, seperated by space.
+			ex - A B C D 
+			
+			next you will be asked enter values for each column. Make sure to enter equal number of values for each column.
+
+2.) sh or show or 2 --- to display any of the available csv files available
+3.) ed or edit or 3 --- to edit files.
+			now you can either enter add to add data or column or enter del to delete data or column
+			if you choose to enter:
+				by entering col you can add a new column
+				by entering row you can add a new row
+				by entering "row number" <space> "column name" you can add data to specific cell
+			
+			if you choose to delete:
+				by entering col you can delete column
+				by entering row you can delete row
+				by entering "row number" <space> "column name" you can delete data to specific cell
+
+4.) q or quit or 0 --- to exit.
+			  
+
+
